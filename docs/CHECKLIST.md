@@ -75,16 +75,16 @@ updated: 2026-04-18
 - [-] Artifacts reviewed and edited
 - [-] `openspec validate <your-feature-slug>` passes
 - [-] `apply <your-feature-slug>` — one task at a time, committed between each
-- [ ] `openspec archive <your-feature-slug> --yes` run
-- [ ] `npm run check` passes
-- [ ] Any permanent constraints added to `AGENTS.md`
-- [ ] Committed: `git commit -m "Part 4B: <your-feature-slug> implemented and archived"`
+- [-] `openspec archive <your-feature-slug> --yes` run
+- [-] `npm run check` passes
+- [-] Any permanent constraints added to `AGENTS.md`
+- [-] Committed: `git commit -m "Part 4B: <your-feature-slug> implemented and archived"`
 
 ## Track 2 — back-end security feature
 
-- [ ] `openspec new change <your-security-feature-slug>` run
-- [ ] `propose <your-security-feature-slug>` run; scenarios verified as testable
-- [ ] `openspec validate <your-security-feature-slug>` passes
+- [-] `openspec new change <your-security-feature-slug>` run
+- [-] `propose <your-security-feature-slug>` run; scenarios verified as testable
+- [-] `openspec validate <your-security-feature-slug>` passes
 - [ ] Tests written before implementation (TDD) — red-first, green after
 - [ ] `apply <your-security-feature-slug>` — one task at a time
 - [ ] `openspec archive <your-security-feature-slug> --yes` run

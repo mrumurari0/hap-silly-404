@@ -165,6 +165,12 @@ Effective rule wording patterns:
 
 When you complete a spec and implement a feature, look at what constraints were in the spec's "out of scope" section. If any of those constraints should apply permanently — not just to this feature — add them here as rules.
 
+- Never add animations that interfere with readability or accessibility — visual effects should remain subtle and non-blocking.
+
+- Always keep AI-generated roast text family-friendly and under 25 words — the project is intended for public/student-facing use.
+
+- When adding UI enhancements, preserve the existing CSP-compatible architecture and avoid inline scripts or styles.
+
 ---
 
 ## Teaching posture
