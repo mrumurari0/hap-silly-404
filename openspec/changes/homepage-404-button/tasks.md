@@ -12,7 +12,7 @@
 
 ## 3. Verification
 
-- [ ] 3.1 Run npm run check (lint, format, secretlint)
-- [ ] 3.2 Test button click navigation to /404 page
-- [ ] 3.3 Test button with screen reader
-- [ ] 3.4 Verify button styling matches design system
+- [x] 3.1 Run npm run check (lint, format, secretlint)
+- [x] 3.2 Test button click navigation to /404 page
+- [x] 3.3 Test button with screen reader
+- [x] 3.4 Verify button styling matches design system
