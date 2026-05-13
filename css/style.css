@@ -65,6 +65,63 @@ header p {
   font-size: 0.95rem;
 }
 
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.personality-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.personality-selector label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--hap-text);
+}
+
+.personality-selector select {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--hap-border);
+  border-radius: var(--hap-radius);
+  background-color: var(--hap-card-bg);
+  color: var(--hap-text);
+  cursor: pointer;
+}
+
+.personality-selector select:hover,
+.personality-selector select:focus-visible {
+  border-color: var(--hap-orange);
+  outline: 2px solid var(--hap-orange);
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .header-flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .personality-selector {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .personality-selector select {
+    flex: 1;
+  }
+}
+
+header p {
+  color: var(--hap-text-muted);
+  font-size: 0.95rem;
+}
+
 main {
   padding-bottom: 3rem;
 }

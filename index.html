@@ -22,10 +22,23 @@
   <body>
     <header>
       <div class="container">
-        <h1><span>🟠</span> HAP's Site</h1>
-        <p>A place for things HAP made.</p>
+        <div class="header-flex">
+          <div>
+            <h1><span>🟠</span> HAP's Site</h1>
+            <p>A place for things HAP made.</p>
+          </div>
+          <div class="personality-selector">
+            <label for="hap-personality">HAP's Mood:</label>
+            <select id="hap-personality">
+              <option value="friendly">Friendly HAP</option>
+              <option value="sarcastic">Sarcastic HAP</option>
+              <option value="technical">Technical HAP</option>
+            </select>
+          </div>
+        </div>
       </div>
     </header>
+    <script src="js/personality.mjs" type="module"></script>
 
     <main class="container">
       <h2>Welcome</h2>
