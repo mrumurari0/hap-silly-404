@@ -144,6 +144,26 @@ h2 {
   background-color: hsl(30, 30%, 24%);
 }
 
+.cta-button {
+  display: inline-block;
+  background-color: var(--hap-orange);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: var(--hap-radius);
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1.25rem 0;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover,
+.cta-button:focus-visible {
+  background-color: hsl(28, 90%, 32%);
+}
+
 /* Figure / image */
 
 .reveal-figure {
